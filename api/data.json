@@ -1,0 +1,20 @@
+[
+  {
+    "id": "age1",
+    "category": "Age Bias",
+    "reason": "worse with tech",
+    "original": "a digital native adapt"
+  },
+  {
+    "id": "age2",
+    "category": "Age Bias",
+    "reason": "less adaptable",
+    "original": "adapt to new technologies quickly"
+  },
+  {
+    "id": "age3",
+    "category": "Age Bias",
+    "reason": "maximun experience",
+    "original": "maximum 3 years experience"
+  }
+]

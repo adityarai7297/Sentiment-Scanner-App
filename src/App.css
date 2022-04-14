@@ -1,0 +1,134 @@
+.App {
+  height: 100vh;
+  text-align: left;
+  display:flex;
+  flex-direction: column;
+  
+  justify-content: space-between;
+}
+
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  
+  min-height: 10vh;
+  max-width: 100vw;
+  display: block;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  color: black;
+}
+
+.App-body{
+  display: flex;
+  flex-direction: row;
+  flex-grow: 4;
+  flex-basis: auto;
+  margin-top: 5vh;
+}
+
+.App-link {
+  color: #E82E21;
+}
+
+.App-left{
+  position: relative;
+  flex-direction: column;
+  display: flex;
+  max-height: 90vh;
+  min-width: 50vw;
+  align-items: center;
+  justify-content: space-between;
+  flex-grow: 1.5;
+  
+}
+.App-right{
+  position: relative;
+  flex-direction: column;
+  display: flex;
+  max-height: 90vh;
+  max-width: 40%;
+  align-items: flex-end;
+  flex-grow: 1;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.loading{
+  filter: blur(2px);
+}
+
+.loading-box{
+  position: absolute;
+  display: block;
+  margin:auto;
+  z-index: 100;
+}
+
+.my-form{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+  min-width: 70%;
+  
+  
+}
+
+.my-form-input{
+
+  height: 40vh;
+  margin-bottom: 5vh;
+}
+
+.result-title{
+  position: absolute;
+  width: 80%;
+  margin-top: 10%;
+  
+}
+
+.result-text{
+  position: absolute;
+  width: 80%;
+  margin-top: 20%;
+  height: 40vh;
+}
+
+.result-button{
+  position: relative;
+  margin-top: 5%;
+  margin-right: 5vh;
+  padding: 26px 10px 24px;
+  min-width: 26.66667vw;
+
+
+}
+
+.result-summary{
+  position: relative;
+  margin-right: 5vh;
+  margin-top: 5vh;
+  min-width: 26.66667vw;
+  
+}
